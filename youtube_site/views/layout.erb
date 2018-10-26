@@ -3,16 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title> <%= @title %></title>
-
   </head>
   <body>
-        <link rel="stylesheet" type="text/css" href="/master.css">
-        <%#as it already assumes to looko in publics  %>
-       <%= erb(:"partial/navigation", :layout => false) %>
-       <%# false as we dont want the standard layout we want a custom one %>
-       <%# imports navigation bar from navigation erb %>
-       <%# template content injected here %>
-       <%= yield %>
-       <%= erb(:"partial/footer", :layout => false) %>
+    <link rel="stylesheet" type="text/css" href="/master.css">
+      <%= erb(:"partial/navigation", :layout => false) %>
+      <%= yield %>
+      <%= erb(:"partial/footer", :layout => false) %>
   </body>
 </html>

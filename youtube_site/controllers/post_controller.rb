@@ -20,10 +20,10 @@ class PostController<Sinatra::Base
       id: 1,
       title: "Post 2",
       body: " Homer: What's the point of going out? We're just going to wind up back here anyway.
- Homer: Yep, nobody's more wild and youthful than old man Burns.
- Barney: So, I say, when we die there should be two planets- one for the French and one for the Chinese.
- Marge: Our differences are only skin deep, but our sames go down to the bone.
- Ned Flanders: You know, a man came into the store today and asked for change for a dollar, and I accidentally gave him three quarters. Took me all afternoon just to track him down.
+      Homer: Yep, nobody's more wild and youthful than old man Burns.
+       Barney: So, I say, when we die there should be two planets- one for the French and one for the Chinese.
+       Marge: Our differences are only skin deep, but our sames go down to the bone.
+       Ned Flanders: You know, a man came into the store today and asked for change for a dollar, and I accidentally gave him three quarters. Took me all afternoon just to track him down.
 ",
 src: "https://www.youtube.com/embed/hr6ey0jpWLA",
 h1: "Dance off"
