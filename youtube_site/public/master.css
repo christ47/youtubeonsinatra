@@ -1,0 +1,52 @@
+body{
+  /* background-color: blue; */
+}
+
+#navpic{
+
+  height: 100%;
+  width: 15%;
+  /* text-align: left; */
+  /* margin-right: auto; */
+}
+
+nav{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  /* width: 100%; */
+  padding: 0;
+  margin-left: auto;
+}
+h1{
+  text-align: center;
+}
+input{
+  width: 20%;
+  /* padding-left: 0; */
+  height: 25px;
+  /* text-align: center; */
+align-items: center;
+}
+
+.footerp{
+border: solid black 2px;
+width: 20%;
+  /* justify-content: flex-end; */
+margin-left: auto;
+/* text-align: right; */
+
+/* align-items: flex-end; */
+}
+
+footer{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  width: 100%;
+padding-top: 20%;
+}
+
+iframe{
+margin-left: 32.5%;
+}
